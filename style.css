@@ -1,0 +1,85 @@
+h3, p, a{
+
+    color: rgb(0, 0, 0)
+}
+
+body{
+
+    background-color: aliceblue; 
+
+}
+
+h1{
+
+    margin-left: 40px;
+}
+
+.Header{
+
+    background-color: cadetblue;
+    display : flex;
+
+    justify-content: space-between;
+}
+
+.grid{
+
+    display : flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+
+.socials{
+
+    display : flex;
+
+    justify-content: flex-end;
+}
+
+.menu{
+
+    display : flex;
+
+    flex-direction: column;
+
+    margin-right: 40px;
+
+}
+
+.menu * {
+    
+    margin-top: 10px;
+
+}
+
+.item{
+
+    position: relative;
+
+}
+
+.item p{
+
+    position: absolute;
+
+    top: 40%;
+
+    left: 40%;
+
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+
+}
+
+.item:hover p{
+
+    opacity: 1;
+}
+
+.item:hover img{
+
+opacity: .5
+}
